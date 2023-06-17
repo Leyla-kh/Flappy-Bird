@@ -336,6 +336,7 @@ function clickHandler() {
       pipes.position = [];
       score.current = 0;
       state.current = state.ready;
+
       break;
     default:
       bird.flap();
